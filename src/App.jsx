@@ -1,8 +1,9 @@
 import { useState } from "react";
 import Card from "./components/Card";
+import shuffle from "./utilities/shuffle";
 
 function App() {
-  const [cards, setCards] = useState([]);
+  const [cards, setCards] = useState(shuffle);
 
   return (
     <div className="grid">
