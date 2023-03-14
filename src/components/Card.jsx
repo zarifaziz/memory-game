@@ -1,15 +1,20 @@
-const Card = ({ image, selected, onClick}) => {
+const Card = ({ image, selected, onClick }) => {
 
-    return (
-        <div className="card">
-            <div className={selected && 'selected'}>
-                <img alt="" src={image} className="card-face" />
 
-                <img alt="" src={'/assets/fireship.png'} className="card-back" />
-            </div>
+  return (
+    <div className="card">
+      <div className={selected && 'selected'}>
+        <img alt="" src={image} className="card-face" />
 
-        </div>
-    )
-}
+        <img
+          alt=""
+          className="card-back"
+          src={'/assets/fireship.png'}
+          onClick={onClick}
+        />
+      </div>
+    </div>
+  );
+};
 
 export default Card;
