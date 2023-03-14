@@ -1,14 +1,6 @@
 const shuffle = () => {
     // 8 objects that reference the images in the public dir
     const assets = [
-        // { image: '/assets/css.png' },
-        // { image: '/assets/html5.png' },
-        // { image: '/assets/jquery.png'},
-        // { image: '/assets/js.png' },
-        // { image: '/assets/next.png' },
-        // { image: '/assets/node.png' },
-        // { image: '/assets/react.png'},
-        // { image: '/assets/ts.png' },
         { image: '/assets/cat_1.jpeg' },
         { image: '/assets/cat_2.jpeg' },
         { image: '/assets/cat_3.png' },
